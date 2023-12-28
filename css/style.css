@@ -1,0 +1,68 @@
+/*Example 01*/
+#draggable { 
+	width: 150px; 
+	height: 150px; 
+	padding: 10px;
+	color: white;
+	background-color: blue;
+}
+
+/*example 02*/
+.dropdrag{
+	overflow: hidden;
+}
+#draggable1 { 
+	width: 100px; 
+	height: 100px; 
+	padding: 10px; 
+	float: left; 
+	margin: 10px 10px 10px 0; 
+	background-color: green;
+}
+#droppable { 
+  width: 150px; 
+  height: 150px; 
+  padding: 10px; 
+  float: left; 
+  margin: 10px; 
+  background-color: red;
+}
+
+/*example 03*/
+#sortable { 
+  list-style-type: none; 
+  margin: 0; 
+  padding: 0; 
+  width: 40%; 
+}
+#sortable li { 
+  margin: 0 3px 3px 3px; 
+  padding: 0.4em; 
+  padding-left: 1.5em; 
+  font-size: 1.4em; 
+  height: 50px;
+}
+#sortable li span { 
+  position: absolute; 
+  margin-left: -1.3em; 
+}
+/*dialog*/
+.dlog{
+	overflow: hidden;
+}
+/*color animate*/
+.togg {
+ width: 500px; 
+ height: 200px; 
+ position: relative; 
+}
+.btna{ 
+  padding: .5em 1em; 
+  text-decoration: none; 
+}
+#effect1 { 
+  width: 240px; 
+  height: 170px; 
+  padding: 0.4em; 
+  background: ash !important; 
+}
